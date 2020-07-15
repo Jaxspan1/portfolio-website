@@ -7,6 +7,11 @@
 {{post.title}}
 {% endblock title %}
 
+{% block desc %} {{title}}
+{% endblock desc %}
+{% block summary %} {{post.summary}}
+{% endblock summary %}
+
 {% block body %}
 
 <body data-spy="scroll" data-target=".fixed-top" style="background-image: url('/static/images/header-background.jpg') ;"

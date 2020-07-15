@@ -8,9 +8,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
 
-ALLOWED_HOSTS = []
+
+
 
 
 # Application definition

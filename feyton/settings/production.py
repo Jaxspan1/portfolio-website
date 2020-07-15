@@ -1,4 +1,10 @@
+from decouple import config
+
 from .base import *
+
+ALLOWED_HOSTS = []
+SECRET_KEY = config('SECRET_KEY')
+DEBUG = config('DEBUG', cast=bool, default=False)
 
 AUTH_PASSWORD_VALIDATORS = [
     {
