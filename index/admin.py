@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import Testimony, AssistanceRequest, Member
 
-# Register your models here.
+admin.site.register(Testimony)
+admin.site.register(AssistanceRequest)
+admin.site.register(Member)
